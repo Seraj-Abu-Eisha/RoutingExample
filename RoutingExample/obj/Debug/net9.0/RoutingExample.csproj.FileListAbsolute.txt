@@ -26,3 +26,4 @@ C:\Users\Working\source\repos\RoutingExample\RoutingExample\obj\Debug\net9.0\ref
 C:\Users\Working\source\repos\RoutingExample\RoutingExample\obj\Debug\net9.0\RoutingExample.pdb
 C:\Users\Working\source\repos\RoutingExample\RoutingExample\obj\Debug\net9.0\RoutingExample.genruntimeconfig.cache
 C:\Users\Working\source\repos\RoutingExample\RoutingExample\obj\Debug\net9.0\ref\RoutingExample.dll
+C:\Users\Working\source\repos\RoutingExample\RoutingExample\obj\Debug\net9.0\RoutingExample.sourcelink.json
