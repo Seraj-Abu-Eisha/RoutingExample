@@ -21,7 +21,6 @@ app.Map("daily-digest-report/{reportdate:datetime}", async context =>
     await context.Response.WriteAsync
         ($"In daily-digest-report-{reportDate.ToShortDateString()}");
 });
-
 //Cities Id Map
 app.Map("cities/{cityId:guid}", async (context) =>
 {
