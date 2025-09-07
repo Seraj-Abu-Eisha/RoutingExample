@@ -24,7 +24,7 @@ app.Map("daily-digest-report/{reportdate:datetime}", async context =>
 //Cities Id Map
 app.Map("cities/{cityId:guid}", async (context) =>
 {
-    Guid cityId = Guid.Parse(context.Request.RouteValues["cityId"]);
+    Guid cityId = Guid.Parse(Convert.ToString(context.Request.RouteValues["cityId"])!);
     await context.Response.WriteAsync($"City information - {cityId}");
 });
 
