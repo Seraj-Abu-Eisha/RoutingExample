@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9ABADF91-9198-4F37-BF15-C0F76C7B1504}|RoutingExample\\RoutingExample.csproj|c:\\users\\working\\source\\repos\\routingexample\\routingexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ABADF91-9198-4F37-BF15-C0F76C7B1504}|RoutingExample\\RoutingExample.csproj|solutionrelative:routingexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ABADF91-9198-4F37-BF15-C0F76C7B1504}|RoutingExample\\RoutingExample.csproj|c:\\users\\working\\source\\repos\\routingexample\\routingexample\\customconstraints\\monthcustomconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ABADF91-9198-4F37-BF15-C0F76C7B1504}|RoutingExample\\RoutingExample.csproj|solutionrelative:routingexample\\customconstraints\\monthcustomconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MonthCustomConstraints.cs",
+              "DocumentMoniker": "C:\\Users\\Working\\source\\repos\\RoutingExample\\RoutingExample\\CustomConstraints\\MonthCustomConstraints.cs",
+              "RelativeDocumentMoniker": "RoutingExample\\CustomConstraints\\MonthCustomConstraints.cs",
+              "ToolTip": "C:\\Users\\Working\\source\\repos\\RoutingExample\\RoutingExample\\CustomConstraints\\MonthCustomConstraints.cs",
+              "RelativeToolTip": "RoutingExample\\CustomConstraints\\MonthCustomConstraints.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA+wBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T07:00:47.221Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "RoutingExample\\Program.cs",
               "ToolTip": "C:\\Users\\Working\\source\\repos\\RoutingExample\\RoutingExample\\Program.cs",
               "RelativeToolTip": "RoutingExample\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T10:45:25.157Z",
               "EditorCaption": ""
