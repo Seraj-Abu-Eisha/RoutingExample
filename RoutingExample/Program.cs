@@ -1,4 +1,9 @@
+using RoutingExample.CustomConstraints;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddRouting(options =>
+{
+    options.ConstraintMap.Add("months", typeof(MonthCustomConstraints));
+});
 var app = builder.Build();
 
 //Files
@@ -11,6 +16,16 @@ app.Map("files/{filename}.{extenson}", async context =>
     (context.Request.RouteValues["extension"]);
 
     await context.Response.WriteAsync($"In files - {filename} - {extension}");
+});
+
+
+app.Map("sales-report/{year:int:min(1900)}/{month:months}", async context =>
+{
+    int year = Convert.ToInt32(context.Request.RouteValues["year"]);
+
+    string? month = Convert.ToString(context.Request.RouteValues["month"]);
+
+    await context.Response.WriteAsync($"sales report - {year} - {month}");
 });
 
 //dateTime
