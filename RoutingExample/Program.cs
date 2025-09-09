@@ -18,7 +18,7 @@ app.Map("files/{filename}.{extenson}", async context =>
     await context.Response.WriteAsync($"In files - {filename} - {extension}");
 });
 
-
+//sales report by year and month using Routing
 app.Map("sales-report/{year:int:min(1900)}/{month:months}", async context =>
 {
     int year = Convert.ToInt32(context.Request.RouteValues["year"]);
@@ -26,6 +26,12 @@ app.Map("sales-report/{year:int:min(1900)}/{month:months}", async context =>
     string? month = Convert.ToString(context.Request.RouteValues["month"]);
 
     await context.Response.WriteAsync($"sales report - {year} - {month}");
+});
+
+//eg: Sales-report/2024/jan
+app.Map("sales-report/2024/jan", async context =>
+{
+    await context.Response.WriteAsync($"sales report for 2024-jan");
 });
 
 //dateTime
